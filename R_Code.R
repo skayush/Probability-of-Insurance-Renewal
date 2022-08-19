@@ -1,9 +1,8 @@
 rm(list = ls())
 
 #Set working directory and read the data file
-setwd("C:/Users/vkumar/Downloads")
 library("readxl")
-dataset=read_excel("premium.xlsx" , sheet = 1)
+dataset<- read_excel("./Dataset_Premium.xlsx", sheet = 1)
 str(dataset)
 
 library(DMwR)
